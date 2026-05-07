@@ -72,7 +72,7 @@ Al abrir la app, haz clic en **⚙ Config** y completa:
 
 | Campo      | Ejemplo                            |
 |------------|------------------------------------|
-| SAP Host   | `my431061-api.s4hana.cloud.sap`    |
+| SAP Host   | `myxxxxxx-api.s4hana.cloud.sap`    |
 | Usuario    | `TU_COMMUNICATION_USER`            |
 | Contraseña | `TuPassword`                       |
 
@@ -85,8 +85,8 @@ La configuración se guarda automáticamente en `sap_client_config.json`
 
 ### GET – Obtener registros
 1. Selecciona método **GET**
-2. Pega la URL OData:  
-   `https://my431061-api.s4hana.cloud.sap/sap/opu/odata/sap/API_BUSINESS_PARTNER/A_AddressIndependentEmailAddress`
+2. Pega la URL OData:  (ejemplo)
+   `https://myxxxxxx-api.s4hana.cloud.sap/sap/opu/odata/sap/API_BUSINESS_PARTNER/A_AddressIndependentEmailAddress`
 3. En **Params**, configura `$select`, `$top`, `$filter`
 4. Activa **Auto-paginación** para descargar todos los registros automáticamente
 5. Haz clic en **ENVIAR**
