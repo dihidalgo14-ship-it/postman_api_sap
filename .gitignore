@@ -1,0 +1,30 @@
+# ── Credenciales y configuración local (NUNCA subir) ──
+sap_client_config.json
+sap_client_history.json
+
+# ── Entornos virtuales ────────────────────────────────
+.venv/
+venv/
+env/
+
+# ── PyInstaller / Build ───────────────────────────────
+dist/
+build/
+*.spec.bak
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ── Archivos de datos exportados ─────────────────────
+*.xlsx
+*.csv
+*.json
+!requirements*.json
+
+# ── VS Code (opcional, puedes quitarlo si quieres compartir settings) ──
+# .vscode/
+
+# ── Sistema operativo ─────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
