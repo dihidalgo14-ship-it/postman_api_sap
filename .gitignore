@@ -1,4 +1,4 @@
-# ── Credenciales y configuración local (NUNCA subir) ──
+
 sap_client_config.json
 sap_client_history.json
 
@@ -21,7 +21,7 @@ __pycache__/
 *.json
 !requirements*.json
 
-# ── VS Code (opcional, puedes quitarlo si quieres compartir settings) ──
+# ── VS Code ──
 # .vscode/
 
 # ── Sistema operativo ─────────────────────────────────
